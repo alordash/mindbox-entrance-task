@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GeometricCalculations.Shapes {
-	public class Circle: Shape {
+	public class Circle: IShape {
 		public double Radius;
 
 		public Circle(double radius) {

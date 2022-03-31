@@ -48,7 +48,7 @@ namespace ShapesTest {
 
 	[TestClass]
 	public class UndefinedShapeTest {
-		static double UndefinedShapeArea(Shape undefinedShape) {
+		static double UndefinedShapeArea(IShape undefinedShape) {
 			return undefinedShape.CalculateArea();
 		}
 

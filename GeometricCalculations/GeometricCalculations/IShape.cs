@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GeometricCalculations {
-	public interface Shape {
+	public interface IShape {
 		public double CalculateArea();
 	}
 }

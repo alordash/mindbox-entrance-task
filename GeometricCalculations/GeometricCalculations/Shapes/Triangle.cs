@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GeometricCalculations.Shapes {
-	public class Triangle : Shape {
+	public class Triangle : IShape {
 		double SideA;
 		double SideB;
 		double SideC;
