@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GeometricCalculations.Shapes {
-	public static class TriangleExtension {
+	public static class TriangleExtensions {
 		public static bool IsRight(this ITriangle triangle) {
 			var sides = new double[] { triangle.SideA, triangle.SideB, triangle.SideC };
 			sides = sides.OrderByDescending(x => x).ToArray();
