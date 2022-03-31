@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using GeometricCalculations.Shapes;
 
 namespace ShapesTest.Shapes {
-	public class Circle: ICircle {
+	class Circle: ICircle {
 		public double Radius { get; set; }
 
 		public Circle(double radius) {
