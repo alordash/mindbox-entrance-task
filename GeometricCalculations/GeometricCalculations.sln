@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricCalculations", "GeometricCalculations\GeometricCalculations.csproj", "{43408CFA-2EE4-4562-8A7A-57E03211D7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesTest", "ShapesTest\ShapesTest.csproj", "{5ECFCA79-4A0A-427A-A565-70C723935AB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43408CFA-2EE4-4562-8A7A-57E03211D7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43408CFA-2EE4-4562-8A7A-57E03211D7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43408CFA-2EE4-4562-8A7A-57E03211D7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43408CFA-2EE4-4562-8A7A-57E03211D7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECFCA79-4A0A-427A-A565-70C723935AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECFCA79-4A0A-427A-A565-70C723935AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECFCA79-4A0A-427A-A565-70C723935AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECFCA79-4A0A-427A-A565-70C723935AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E833C2EE-85E0-434C-A61B-5F8A9C6A460C}
+	EndGlobalSection
+EndGlobal
