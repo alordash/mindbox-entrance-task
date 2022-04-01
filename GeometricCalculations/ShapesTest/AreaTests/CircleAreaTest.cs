@@ -16,7 +16,7 @@ namespace ShapesTest.AreaTests {
 		[TestMethod]
 		public void Circle_Area_Equal_To_100Pi_Test() {
 			var circle = new Circle(10.0);
-			Assert.AreEqual(circle.CalculateArea(), Math.PI * 100.0);
+			Assert.AreEqual(circle.CalculateArea(), 100.0 * Math.PI);
 		}
 
 		[TestMethod]
